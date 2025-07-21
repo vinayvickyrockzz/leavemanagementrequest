@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1309020_leave_ma_leave_request">x_1309020_leave_ma_leave_request</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>LEAVEREQ</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 06:48:03</sys_created_on>
+        <sys_id>9dd8f36d83802210eb103596feaad3ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LEAVEREQ</sys_name>
+        <sys_package display_value="Leave Management System" source="x_1309020_leave_ma">3867f3ad83402210eb103596feaad32e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">3867f3ad83402210eb103596feaad32e</sys_scope>
+        <sys_update_name>sys_number_9dd8f36d83802210eb103596feaad3ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 06:48:03</sys_updated_on>
+    </sys_number>
+</record_update>

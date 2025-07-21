@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b6dec14e83802210eb103596feaad3de" label="Leave calculator" max_length="40" name="x_1309020_leave_ma_leave_calculator" type="collection">
+        <element label="leaves" max_length="40" name="leaves" type="string"/>
+        <element label="starting month" max_length="255" name="starting_month" type="string"/>
+        <element choice="1" label="country" max_length="40" name="country" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="leave type" max_length="40" name="leave_type" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="leave Asssignment" max_length="40" name="leave_asssignment" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="End Month" max_length="40" name="end_month" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

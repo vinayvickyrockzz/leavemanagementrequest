@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="45d8f36d83802210eb103596feaad387" label="LEAVE REQUEST" max_length="40" name="x_1309020_leave_ma_leave_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="LEAVE TYPE" max_length="40" name="leave_type" type="choice">
+            <choice/>
+        </element>
+        <element label="ACCRUED" max_length="255" name="accrued" type="float"/>
+        <element label="END DATE" max_length="255" name="end_date" type="glide_date"/>
+        <element label="DURATION" max_length="255" name="duration" type="float"/>
+        <element label="REQUESTED BY" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element label="Approval" max_length="40" name="approval" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="NOT YET REQUESTED" sequence="1" value="NOT YET REQUESTED"/>
+                <element inactive_on_update="false" label="REJECTED" sequence="2" value="REJECTED"/>
+                <element inactive_on_update="false" label="REQUESTED" sequence="3" value="REQUESTED"/>
+                <element inactive_on_update="false" label="APPROVED" sequence="0" value="APPROVED"/>
+            </choice>
+        </element>
+        <element label="START DATE" max_length="255" name="start_date" type="glide_date"/>
+        <element label="Balance" max_length="255" name="balance" type="float"/>
+        <element label="TAKEN leaves" max_length="255" name="taken_leaves" type="float"/>
+        <element label="HALF DAY" max_length="255" name="half_day" type="boolean"/>
+        <element label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SUBMITTED" sequence="1" value="SUBMITTED"/>
+                <element inactive_on_update="false" label="CANCELLED" sequence="2" value="CANCELLED"/>
+                <element inactive_on_update="false" label="OPEN" sequence="0" value="OPEN"/>
+            </choice>
+        </element>
+        <element label="Comments" max_length="40" name="comments" type="string"/>
+        <index name="index">
+            <element name="requested_by"/>
+        </index>
+    </element>
+</database>

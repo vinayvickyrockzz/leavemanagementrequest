@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1309020_leave_ma_leave_bucket" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>accrued</element>
+            <list_id display_value="x_1309020_leave_ma_leave_bucket" element="NULL" name="x_1309020_leave_ma_leave_bucket" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6e2015ce83802210eb103596feaad342</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-04 07:48:05</sys_created_on>
+            <sys_id>b62015ce83802210eb103596feaad344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-04 07:48:05</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>balance</element>
+            <list_id display_value="x_1309020_leave_ma_leave_bucket" element="NULL" name="x_1309020_leave_ma_leave_bucket" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6e2015ce83802210eb103596feaad342</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-04 07:48:05</sys_created_on>
+            <sys_id>7e2015ce83802210eb103596feaad344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-04 07:48:05</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>employee</element>
+            <list_id display_value="x_1309020_leave_ma_leave_bucket" element="NULL" name="x_1309020_leave_ma_leave_bucket" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6e2015ce83802210eb103596feaad342</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-04 07:48:05</sys_created_on>
+            <sys_id>fe2015ce83802210eb103596feaad344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-04 07:48:05</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>last_year_balance</element>
+            <list_id display_value="x_1309020_leave_ma_leave_bucket" element="NULL" name="x_1309020_leave_ma_leave_bucket" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6e2015ce83802210eb103596feaad342</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-04 07:48:05</sys_created_on>
+            <sys_id>722015ce83802210eb103596feaad345</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-04 07:48:05</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>leave_type</element>
+            <list_id display_value="x_1309020_leave_ma_leave_bucket" element="NULL" name="x_1309020_leave_ma_leave_bucket" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6e2015ce83802210eb103596feaad342</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-04 07:48:05</sys_created_on>
+            <sys_id>f22015ce83802210eb103596feaad345</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-04 07:48:05</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>taken</element>
+            <list_id display_value="x_1309020_leave_ma_leave_bucket" element="NULL" name="x_1309020_leave_ma_leave_bucket" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6e2015ce83802210eb103596feaad342</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-04 07:48:05</sys_created_on>
+            <sys_id>762015ce83802210eb103596feaad345</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-04 07:48:05</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1309020_leave_ma_leave_bucket</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-04 07:48:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e2015ce83802210eb103596feaad342</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1309020_leave_ma_leave_bucket</sys_name>
+            <sys_package display_value="Leave Management System" source="x_1309020_leave_ma">3867f3ad83402210eb103596feaad32e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Leave Management System">3867f3ad83402210eb103596feaad32e</sys_scope>
+            <sys_update_name>sys_ui_list_x_1309020_leave_ma_leave_bucket_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-04 07:48:05</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

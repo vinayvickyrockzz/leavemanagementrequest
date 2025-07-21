@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d2b848fd83c02210eb103596feaad34b" label="LEAVE BUCKET" max_length="40" name="x_1309020_leave_ma_leave_bucket" type="collection">
+        <element label="Employee Number" max_length="40" name="employee_number" type="string"/>
+        <element label="EMPLOYEE" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element label="LAST YEAR BALANCE" max_length="255" name="last_year_balance" type="float"/>
+        <element label="BALANCE" max_length="255" name="balance" type="float"/>
+        <element choice="1" default="CASUAL LEAVE" label="LEAVE TYPE" max_length="40" name="leave_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="EARNED LEAVE" sequence="1" value="EARNED LEAVE"/>
+                <element inactive_on_update="false" label="SICK LEAVE" sequence="2" value="SICK LEAVE"/>
+                <element inactive_on_update="false" label="CASUAL LEAVE" sequence="0" value="CASUAL LEAVE"/>
+                <element inactive_on_update="false" label="WORK FROM HOME" sequence="3" value="WORK FROM HOME"/>
+            </choice>
+        </element>
+        <element label="TAKEN" max_length="255" name="taken" type="float"/>
+        <element label="ACCRUED" max_length="255" name="accrued" type="float"/>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>
